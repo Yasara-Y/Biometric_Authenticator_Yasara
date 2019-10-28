@@ -1,0 +1,4 @@
+org.wso2.carbon.identity.sso.saml.internal
+org.wso2.carbon.identity.sso.saml.javascript.flow
+org.wso2.carbon.identity.sso.saml.model
+org.wso2.carbon.identity.sso.saml.servlet

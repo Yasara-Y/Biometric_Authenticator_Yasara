@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.wso2.carbon.extension.identity.authenticator.
+ biometric
+Built-By: yasara
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1571999973298
+Import-Package: javax.servlet;version="[2.6,3)",javax.servlet.http;ver
+ sion="[2.6,3)",org.apache.commons.logging;version="1.0.4",org.json.si
+ mple;version="0.0.0",org.osgi.framework;version="[1.7,2)",org.osgi.se
+ rvice.component;version="[1.2,2)";resolution:=optional,org.wso2.carbo
+ n.extension.identity.authenticator;resolution:=optional,org.wso2.carb
+ on.identity.application.authentication.framework;version="[5.0,6)",or
+ g.wso2.carbon.identity.application.authentication.framework.config.mo
+ del;version="[5.0,6)",org.wso2.carbon.identity.application.authentica
+ tion.framework.context;version="[5.0,6)",org.wso2.carbon.identity.app
+ lication.authentication.framework.exception;version="[5.0,6)",org.wso
+ 2.carbon.identity.application.authentication.framework.model;version=
+ "[5.0,6)",org.wso2.carbon.identity.application.common.model;version="
+ [5.0,6)";resolution:=optional
+Service-Component: OSGI-INF/serviceComponents.xml
+Tool: Bnd-1.43.0
+Export-Package: org.wso2.carbon.extension.identity.authenticator;uses:
+ ="org.json.simple,org.wso2.carbon.identity.application.common.model,o
+ rg.wso2.carbon.identity.application.authentication.framework.config.m
+ odel,org.wso2.carbon.identity.application.authentication.framework.co
+ ntext,org.apache.commons.logging,javax.servlet.http,org.wso2.carbon.i
+ dentity.application.authentication.framework.model,org.wso2.carbon.id
+ entity.application.authentication.framework.exception,org.wso2.carbon
+ .identity.application.authentication.framework";version="1.0.0"
+Bundle-Version: 1.0.0
+Bundle-Name: org.wso2.carbon.extension.identity.authenticator.biometri
+ c
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_222
+

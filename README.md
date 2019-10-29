@@ -1,5 +1,6 @@
 # Biometric_Authenticator_Yasara
-This is my repo with all the biometric files
+REPO with the biometric authenticator and the endpoint.
+
 Biometric authenticator and the new endpoint.
 
 Import a CA signed certificate to create a secured http connection with the WSO2 IS.
